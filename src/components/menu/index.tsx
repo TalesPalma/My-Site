@@ -1,10 +1,11 @@
+import Link from 'next/link';
 import Style from './Menu.module.css';
 export const Menu = () => {
   return (
     <div className={Style.buttonContainer}>
-      <button className={Style.button}>Home</button>
-      <button className={Style.button}>Sobre</button>
-      <button className={Style.button}>Contato</button>
+      <Link href="/" className={Style.button} >Home</Link>
+      <Link href="/sobre" className={Style.button} >Sobre</Link>
+      <Link href="/contato" className={Style.button} >Contato</Link>
     </div>
   );
 };
