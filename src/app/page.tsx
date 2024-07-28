@@ -15,7 +15,8 @@ export default function Home() {
               Olá, meu nome é Tales Palma e sou um desenvolvedor Full Stack apaixonado por criar soluções inovadoras e eficientes.
               Com uma sólida formação em Análise e Desenvolvimento de Sistemas, tenho experiência em diversas tecnologias e frameworks, o que me permite atuar em diferentes áreas do desenvolvimento de software.
             </p>
-            <Link href="#" className={Style.buttonDownload}>Download CV</Link>
+            <a href="/Curriculo.pdf" className={Style.buttonDownload} download>Download CV</a>
+
           </div>
         </div>
       </header>
