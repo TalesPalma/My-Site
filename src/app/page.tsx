@@ -15,25 +15,25 @@ export default function Home() {
               Olá, meu nome é Tales Palma e sou um desenvolvedor Full Stack apaixonado por criar soluções inovadoras e eficientes.
               Com uma sólida formação em Análise e Desenvolvimento de Sistemas, tenho experiência em diversas tecnologias e frameworks, o que me permite atuar em diferentes áreas do desenvolvimento de software.
             </p>
-            <a href="/Curriculo.pdf" className={Style.buttonDownload} download>Download CV</a>
+            <a href="/CurriculoTales.pdf" className={Style.buttonDownload} download>Download CV</a>
 
           </div>
         </div>
       </header>
       <main className={Style.main}>
-        <div className={Style.divider}>        <h1>Tecnologias que domino</h1>
-          <ul>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Rust</li>
-            <li>Java</li>
-            <li>Spring</li>
-            <li>Rocket.rs</li>
-            <li>Next.js</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>Kotlin</li>
-            <li>Jetpack Compose</li>
+        <div className={Style.divider}>
+          <h1>Tecnologias que domino</h1>
+          <ul className={Style.icons}>
+            <img src="/icons/rust.svg" alt="rust" />
+            <img src="/icons/java.svg" alt="java" />
+            <img src="/icons/spring.svg" alt="spring" />
+            <img src="/icons/kotlin.svg" alt="kotlin" />
+            <img src="/icons/android.svg" alt="android" />
+            <img src="/icons/javascript.svg" alt="javascript" />
+            <img src="/icons/typescript.svg" alt="typescript" />
+            <img src="/icons/nextjs.svg" alt="nextjs" />
+            <img src="/icons/react.svg" alt="react" />
+            <img src="/icons/angular.svg" alt="angular" />
           </ul>
         </div>
       </main>

@@ -5,7 +5,14 @@ import MyImage from "./talespalma.jpeg"
 export const Card = () => {
   return (
     <div className={Style.card} >
-      <Image src={MyImage} alt="Descrição da Imagem" layout="fill" className={Style.image} />
+      <Image
+        src={MyImage}
+        alt="Descrição da Imagem"
+        className={Style.image}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        fill
+        priority
+      />
       <b></b>
       <div className={Style.content}>
         <p className={Style.title}>Tales Palma</p>
