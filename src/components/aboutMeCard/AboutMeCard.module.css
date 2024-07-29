@@ -1,0 +1,92 @@
+.container {
+  border: solid 1px #bebebe;
+  background: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0px 8px 20px -10px #bbbbbb;
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.container:hover {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+  transform: scale(1.05);
+}
+
+.card1,
+.card2 {
+  margin: 0 auto;
+}
+
+.card1 {
+  width: 300px;
+  margin-top: -20px;
+}
+
+.card2 {
+  width: 320px;
+  margin-top: -10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 10px;
+  }
+
+  .card1,
+  .card2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .card1 {
+    width: calc(50% - 20px);
+    margin-top: 10px;
+  }
+
+  .card2 {
+    width: calc(50% - 20px);
+    margin-top: 10px;
+  }
+
+  .container:hover {
+    color: #ffffff;
+    background: #007bbf;
+    /* Tom de azul ligeiramente mais escuro para telas menores */
+    border: 1px solid #007bbf;
+    text-shadow: 0 0 4px #ffffff, 0 0 8px #ffffff, 0 0 16px #ffffff;
+    /* Menos intenso */
+    box-shadow: 0 0 4px #007bbf, 0 0 16px #007bbf, 0 0 40px #007bbf,
+      0 0 80px #007bbf;
+    /* Menos intenso */
+    transform: scale(1.02);
+    /* Menos intenso para evitar exagero em telas menores */
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .card1,
+  .card2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+
+  .container:hover {
+    color: #ffffff;
+    background: #006bbf;
+    border: 1px solid #006bbf;
+    text-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 12px #ffffff;
+    box-shadow: 0 0 3px #006bbf, 0 0 12px #006bbf, 0 0 30px #006bbf,
+      0 0 60px #006bbf;
+  }
+}

@@ -1,6 +1,7 @@
 import { Card } from "@/components/card";
 import Style from "./page.module.css";
 import Link from "next/link";
+import { AboutMeCard } from "@/components/aboutMeCard";
 
 export default function Home() {
   return (
@@ -10,13 +11,8 @@ export default function Home() {
         <div className={Style.titleHeader}>
           <Card />
           <div className={Style.description}>
-            <h2>Quem sou eu?</h2>
-            <p>
-              Olá, meu nome é Tales Palma e sou um desenvolvedor Full Stack apaixonado por criar soluções inovadoras e eficientes.
-              Com uma sólida formação em Análise e Desenvolvimento de Sistemas, tenho experiência em diversas tecnologias e frameworks, o que me permite atuar em diferentes áreas do desenvolvimento de software.
-            </p>
+            <AboutMeCard />
             <a href="/CurriculoTales.pdf" className={Style.buttonDownload} download>Download CV</a>
-
           </div>
         </div>
       </header>
