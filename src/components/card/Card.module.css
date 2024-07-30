@@ -133,3 +133,44 @@
   fill: currentColor;
   color: rgba(255, 255, 255, 1);
 }
+
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .card img {
+    scale: 0.5;
+    opacity: 0.9;
+    transform: translateY(-70px);
+  }
+
+  .sci li a {
+    fill: currentColor;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .card .content {
+    transform: scale(1);
+    bottom: 25px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .card img {
+    scale: 0.5;
+    opacity: 0.9;
+    transform: translateY(-70px);
+  }
+
+  .sci li a {
+    fill: currentColor;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .card .content {
+    transform: scale(1);
+    bottom: 25px;
+  }
+}

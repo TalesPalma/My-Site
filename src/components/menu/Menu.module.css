@@ -85,17 +85,30 @@
     cursor: pointer;
   }
 
-  .buttonContainer:hover {
+  .buttonContainer {
     width: 100%;
     transition: all 0.5s;
     opacity: 1.0;
     color: #ffffff;
-    background: #008cff;
+    background: #ffffff;
     border: 1px solid #008cff;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
     box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
       0 0 100px #008cff;
   }
+
+  .buttonContainer:hover {
+    width: 100%;
+    transition: all 0.5s;
+    opacity: 1.0;
+    color: #ffffff;
+    background: #ffffff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+
 
   .button:hover {
     transform: translateY(-3px);
@@ -111,6 +124,7 @@
     transform: scale(0.95);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   }
+
 
 
 }

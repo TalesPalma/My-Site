@@ -35,6 +35,8 @@
   margin-top: -10px;
 }
 
+
+
 @media (max-width: 768px) {
   .container {
     margin-top: 10px;
@@ -56,19 +58,17 @@
     margin-top: 10px;
   }
 
-  .container:hover {
+  .container {
     color: #ffffff;
     background: #007bbf;
-    /* Tom de azul ligeiramente mais escuro para telas menores */
     border: 1px solid #007bbf;
     text-shadow: 0 0 4px #ffffff, 0 0 8px #ffffff, 0 0 16px #ffffff;
-    /* Menos intenso */
     box-shadow: 0 0 4px #007bbf, 0 0 16px #007bbf, 0 0 40px #007bbf,
       0 0 80px #007bbf;
-    /* Menos intenso */
     transform: scale(1.02);
-    /* Menos intenso para evitar exagero em telas menores */
   }
+
+
 
 }
 
@@ -81,12 +81,26 @@
   }
 
 
+  .container {
+    color: #ffffff;
+    background: #006bbf;
+    border: 1px solid #006bbf;
+    text-shadow: 0 0 3px #000, 0 0 6px #ffffff, 0 0 12px #ffffff;
+    box-shadow: 0 0 3px #006bbf, 0 0 12px #006bbf, 0 0 30px #006bbf,
+      0 0 60px #006bbf;
+  }
+
   .container:hover {
     color: #ffffff;
     background: #006bbf;
     border: 1px solid #006bbf;
-    text-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 12px #ffffff;
+    text-shadow: 0 0 3px #000, 0 0 6px #ffffff, 0 0 12px #ffffff;
     box-shadow: 0 0 3px #006bbf, 0 0 12px #006bbf, 0 0 30px #006bbf,
       0 0 60px #006bbf;
   }
+
+
+
+
+
 }

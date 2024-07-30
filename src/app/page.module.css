@@ -59,6 +59,19 @@
 .header h1 {
   color: #fff;
   text-shadow: 0px 0px 5px #fff;
+  animation: colorChange 5s infinite alternate-reverse;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #ffffff, 0 0 20px #ffffff;
+  }
+
+  100% {
+    color: #fff;
+    text-shadow: 0px 0px 10px #008cff, 0 0 20px #008cff;
+  }
 }
 
 .header p {
@@ -109,7 +122,7 @@
     font-size: 15px;
   }
 
-  .header .buttonDownload:hover {
+  .header .buttonDownload {
     color: #ffffff;
     background: #008cff;
     border: 1px solid #008cff;
@@ -139,12 +152,8 @@
   }
 
   .container h1 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
-
-
-
-
 
 }
